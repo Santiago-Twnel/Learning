@@ -11,9 +11,9 @@ NSUInteger const LIGHT_SHADOW = 1;
 NSUInteger const SHADOW = 2;
 
 #import <Foundation/Foundation.h>
-#import "PlayingCard.h"
+#import "Card.h"
 
-@interface SetCard : NSObject
+@interface SetCard : Card
 
 @property (strong, nonatomic) NSString *suit;
 
@@ -24,5 +24,9 @@ NSUInteger const SHADOW = 2;
 @property (nonatomic) NSUInteger shadow;
 
 + (NSArray *)validColors;
+
++ (NSUInteger)maxRank;
+
++ (NSArray *)validSuits;
 
 @end
