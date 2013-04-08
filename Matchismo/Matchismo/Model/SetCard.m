@@ -6,6 +6,11 @@
 //  Copyright (c) 2013 Lion User. All rights reserved.
 //
 
+
+NSUInteger const NO_SHADOW = 0;
+NSUInteger const LIGHT_SHADOW = 1;
+NSUInteger const SHADOW = 2;
+
 #import "SetCard.h"
 
 @implementation SetCard

@@ -21,21 +21,21 @@
                     card.rank = rank;
                     card.suit = suit;
                     card.color = color;
-                    card.shadow = 1;
+                    card.shadow = NO_SHADOW;
                     [self addCard:[card copy] atTop:YES];
                     
                     card = [[SetCard alloc] init];
                     card.rank = rank;
                     card.suit = suit;
                     card.color = color;
-                    card.shadow = 1;
+                    card.shadow = LIGHT_SHADOW;
                     [self addCard:[card copy] atTop:YES];
                     
                     card = [[SetCard alloc] init];
                     card.rank = rank;
                     card.suit = suit;
                     card.color = color;
-                    card.shadow = 1;
+                    card.shadow = SHADOW;
                     [self addCard:[card copy] atTop:YES];
                 }
             }
